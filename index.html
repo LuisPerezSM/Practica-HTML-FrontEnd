@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilo.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" width="120px"/>
+      </a>
+      <nav id="nav">
+        <a href="#">Inicio</a>
+        <a href="#pedido">Pedido</a>
+        <a href="#us">Nosotros</a>
+        <a href="pastelero.html">Pastelero</a>
+      </nav>
+      <i class="bi bi-list" id="menu"></i>
+    </header>
+    <div class="banner">
+      <i class="bi bi-heart-fill"></i>
+      <h1>Bienvenidos a la mejor experiencia en pasteles</h1>
+      <i class="bi bi-heart-fill"></i>
+    </div>
+    <div class="separador">
+      <h2>Sabores</h2>
+    </div>
+    <div class="cuerpo">
+      <div class="carta">
+        <img src="img/blueberries.jpg">
+        <h3>Blueberries</h3>
+        <p>$250.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/choco.jpg">
+        <h3>Chocolate</h3>
+        <p>$220.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/glaseado.jpg">
+        <h3>Naranja glaseado</h3>
+        <p>$310.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/mango.jpg">
+        <h3>Pay Mango</h3>
+        <p>$190.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/pay.jpg">
+        <h3>Pay Vainilla</h3>
+        <p>$200.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/queso.jpg">
+        <h3>Queso</h3>
+        <p>$270.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/azul.jpg">
+        <h3>Tres leches</h3>
+        <p>$230.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/fresa.jpg">
+        <h3>Fresa</h3>
+        <p>$250.00</p>
+      </div>
+    </div>
+    <div class="separador">
+      <h2>Adornos</h2>
+    </div>
+    <div class="cuerpo">
+      <div class="carta">
+        <img src="img/fondant.jpg">
+        <h3>Fondant</h3>
+        <p>$60.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/topping.jpg">
+        <h3>Topping Frutas extra</h3>
+        <p>$80.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/decoracion.jpg">
+        <h3>Decorado crema especial</h3>
+        <p>$70.00</p>
+      </div>
+      <div class="carta">
+        <img src="img/chispas.jpg">
+        <h3>Chispas de colores</h3>
+        <p>$50.00</p>
+      </div>
+    </div>
+    <div class="separador">
+      <h2>Pedido</h2>
+    </div>
+    <div id="pedido" class="formulario">
+      <form>
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="text" placeholder="Dirección" required>
+        <input type="text" placeholder="Correo" required>
+        <input type="text" placeholder="Teléfono" required>
+        <select required>
+          <option value="">Selecciona el sabor de tu pastel</option>
+          <option value="Blueberries">Blueberries</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Naranja">Naranja glaseado</option>
+          <option value="Mango">Pay Mango</option>
+          <option value="Vainilla">Pay Vainilla</option>
+          <option value="Queso">Queso</option>
+          <option value="Leches">Tres Leches</option>
+          <option value="Fresa">Fresa</option>
+        </select>
+
+        <select required>
+          <option value="">Selecciona el adorno de tu pastel</option>
+          <option value="Fondant">Fondant</option>
+          <option value="Frutas">Topping de frutas extra</option>
+          <option value="Decorado">Decorado crema especial</option>
+          <option value="Chispas">Chispas colores</option>
+        </select>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <div class="separador">
+      <h2>Nosotros</h2>
+    </div>
+      <div id="us" class="nosotros">
+        <img src="img/logo.png" alt="logo" width="200px">
+        <br>
+        <span>Nos ubicamos en:</span>
+        <p>Circuito Exterior Solar, Número 1234 Col. Los Pasteles, Ciudad Nacional, Mitlán.</p>
+        <span>Teléfonos de contacto:</span>
+        <p>123456789 ó 1122334455</p>
+        <span>Correo:</span>
+        <p>contactopastelinillo@pastelinillo.com</p>
+      </div>
+    <footer>
+      <p>Pastelinillo &copy; | Práctica FrontEnd LaunchX</p>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
